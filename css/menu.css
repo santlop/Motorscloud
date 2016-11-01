@@ -1,0 +1,30 @@
+.ul-menu{
+	width: 96%;
+	border: 1px solid;
+	margin: 0px;
+	padding: 0px;
+}
+
+.ul-menu li{
+	display: inline;
+	list-style: none;
+}
+
+.div-menu-content {
+	background-color: #061551;
+	position: fixed;
+    top: 0px;
+    left: 0px;
+	z-index:1;
+}
+
+.div-menu{
+	height: 100px;
+}
+
+.div-menu .div-menu-item {
+	color: #ffffff;
+	cursor:pointer;
+	height: 100%;
+    padding-top: 2%;
+}

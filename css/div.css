@@ -1,0 +1,130 @@
+.div-logo{
+	width: 200px;
+    height: 130px;
+    align-content: center;
+    background-color: #ffffff;
+}
+
+.div-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.div-content{
+	width: 100%;
+	height: auto;
+}
+
+.div-content .column-1,
+.div-content .column-2,
+.div-content .column-3,
+.div-content .column-4,
+.div-content .column-5,
+.div-content .column-6,
+.div-content .column-7,
+.div-content .column-8,
+.div-content .column-9,
+.div-content .column-10{
+	float: left;
+	padding: 0.5%;
+}
+
+.div-content .column-1{
+	width: 9%;
+}
+.div-content .column-2{
+	width: 15%;
+}
+.div-content .column-3{
+	width: 29%;
+}
+.div-content .column-4{
+	width: 39%;
+}
+.div-content .column-5{
+	width: 49%;
+}
+.div-content .column-6{
+	width: 59%;
+}
+.div-content .column-7{
+	width: 69%;
+}
+.div-content .column-8{
+	width: 79%;
+}
+.div-content .column-9{
+	width: 89;
+}
+.div-content .column-10{
+	width: 99%;
+}
+
+.div-presentacion{
+	margin: 0 auto;
+	height: 600px;
+	width: 50%;
+	background-image: url('../img/structure.png');
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.div-quienes-somos{
+	height: 600px;
+	background:#ffffff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-content-quienes-somos{
+	width: 90%;
+	margin: 0 auto;
+    
+}
+
+.div-content-quienes-somos i{
+	color: #854dff;
+}
+
+.div-content-presentacion{
+	position: relative;
+}
+
+.div-content-title-presentacion{
+	color: #ffffff;
+	font-size: 31px;
+}
+
+.div-background-image{
+    background-image: url("../img/culture.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-background-image-presentacion{
+    background-image: url("../img/presentacion.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-color: #313f71;
+    opacity: 0.6;
+}
+
+.div-siganos{
+    width: 100%;
+    height: 100%;
+}
+
